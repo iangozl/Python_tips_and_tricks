@@ -1,8 +1,8 @@
 # Never name a module which already exists in python
 
 # Example:
-# If I name this file as math.py, there will be a conflict with the original python math module
 
+# If I name this file as math.py, there will be a conflict with the original python math module
 
 # If I create and empty list in an argument of a function:
 
@@ -37,4 +37,8 @@ display_time()
 
 # How iterators work
 # Iterators can be exhausted 
+
+# Don't use * all the time, could be a bad practice.
+# It's harder to debug your code, because you won't know where some functions are coming from
+
 
